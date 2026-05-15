@@ -23,10 +23,10 @@ Dưới đây là các thông số thực tế được ghi nhận trực tiếp
 
 | Metric | Measured Value | Description |
 |:---|:---|:---|
-| **Cold Start (`Init Duration`)** | **277.01 ms** | Thời gian Lambda khởi tạo container (Nằm trong mức ước tính tối ưu) |
-| **Execution Time (`Duration`)** | **22.20 ms** | Thời gian Express xử lý logic code và trả về kết quả |
+| **Cold Start (`Init Duration`)** | **270.43 ms** | Thời gian Lambda khởi tạo container (Nằm trong mức ước tính tối ưu) |
+| **Execution Time (`Duration`)** | **30.62 ms** | Thời gian Express xử lý logic code và trả về kết quả |
 | **Memory Allocation** | **512 MB** | Cấu hình bộ nhớ được cấp phát ban đầu |
-| **Max Memory Used** | **93 MB** | Dung lượng RAM thực tế tiêu thụ tối đa |
+| **Max Memory Used** | **95 MB** | Dung lượng RAM thực tế tiêu thụ tối đa |
 
 
 <img width="1353" height="557" alt="image" src="https://github.com/user-attachments/assets/c2363c35-b234-4189-9044-3a577e067cd0" />
