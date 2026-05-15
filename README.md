@@ -13,7 +13,11 @@ node-express/
 ├── samconfig.toml      ← stack name + region (us-west-2) pre-set
 └── README.md           ← this file
 ```
+# Node.js + Express — BYOL starter (NOT YET SERVERLESS)
 
+> 📌 **Xem nhanh báo cáo kết quả và số liệu đo lường dự án tại đây:** [NOTES.md](./NOTES.md)
+
+---
 ## Step 0 — Confirm the app works in its current "non-serverless" form
 
 ```bash
