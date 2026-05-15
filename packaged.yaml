@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: BYOL challenge Nodejs Express on Lambda via Web Adapter
+Globals:
+  Function:
+    Timeout: 10
+    MemorySize: 512
+    Runtime: nodejs22.x
+    Architectures:
+    - arm64
+Resources:
+  ExpressFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: byol-node-express
+      CodeUri: 
+        s3://aws-sam-cli-managed-default-samclisourcebucket-ywpkje7igzf1/b1f5211dd25006f49c262b5c63c56409
+      Handler: run.sh
+      Tracing: Active
+      Layers:
+      - arn:aws:lambda:us-west-2:753240598075:layer:LambdaAdapterLayerArm64:25
+      Environment:
+        Variables:
+          AWS_LWA_PORT: '3000'
+          PORT: '3000'
