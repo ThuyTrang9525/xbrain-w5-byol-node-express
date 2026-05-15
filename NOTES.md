@@ -14,6 +14,7 @@
 * [cite_start]**Performance Balance:** Thời gian Cold Start ước tính ban đầu (200–400 ms) nằm trong mức chấp nhận được đối với một monolithic framework như Express[cite: 28].
 
 ---
+<img width="1352" height="623" alt="image" src="https://github.com/user-attachments/assets/7a8fabee-1b35-499d-90bd-2f202051e7a8" />
 
 ## 3. Measured Metrics (Số liệu đo lường thực tế)
 Dưới đây là các thông số thực tế được ghi nhận trực tiếp từ hệ thống CloudWatch Logs sau khi smoke-test thành công:
