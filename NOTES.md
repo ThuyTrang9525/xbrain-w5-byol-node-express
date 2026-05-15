@@ -27,3 +27,7 @@ Dưới đây là các thông số thực tế được ghi nhận trực tiếp
 | **Execution Time (`Duration`)** | **22.20 ms** | Thời gian Express xử lý logic code và trả về kết quả |
 | **Memory Allocation** | **512 MB** | Cấu hình bộ nhớ được cấp phát ban đầu |
 | **Max Memory Used** | **93 MB** | Dung lượng RAM thực tế tiêu thụ tối đa |
+
+
+<img width="1353" height="557" alt="image" src="https://github.com/user-attachments/assets/c2363c35-b234-4189-9044-3a577e067cd0" />
+
